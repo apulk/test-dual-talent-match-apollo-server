@@ -1,0 +1,33 @@
+{
+  "name": "beldara-appoll-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.1",
+    "apollo-server": "^2.17.0",
+    "apollo-server-express": "^2.17.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
